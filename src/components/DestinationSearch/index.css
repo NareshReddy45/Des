@@ -1,1 +1,30 @@
-/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  padding-left: 40px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.search-icon {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.input-with-icon {
+  padding: 8px 32px 8px 12px; /* Add padding to make space for the icon */
+  font-size: 16px;
+  background-color: #f1f5f9;
+  /* border-color: #f1f5f9; */
+  border-radius: 5px;
+  border: 1px solid #f1f5f9;
+}

@@ -1,1 +1,28 @@
-/* Write your CSS here */
+.image {
+  max-width: 50%;
+  max-height: 50%;
+  /* object-fit: contain; */
+}
+
+.destination-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.heading {
+  font-size: 15px;
+}
+
+.destination-item {
+  width: 50%; /* Each item takes up 50% of the row width */
+  box-sizing: border-box; /* Ensures padding/margins don’t affect width */
+  padding: 0;
+  margin: 0;
+}
